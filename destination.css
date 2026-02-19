@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+#destinations {
+  padding: 60px 20px;
+  text-align: center;
+  background-color:yellow;
+}
+
+.destinyhead {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: rgb(50, 19, 151);
+}
+
+.destinationcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+}
+
+.destinycard {
+  background:rgb(21, 16, 167);
+  padding: 25px;
+  width: 280px;
+  border-radius: 15px;
+
+}
+
+.destinycard h3 {
+  margin-bottom: 15px;
+  color: #ebe9f0;
+}
+.destinycard img{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  
+  
+}
+
+.destinycard p {
+  font-size: 0.95rem;
+  color: rgb(210, 170, 170);
+  line-height: 1.6;
+}
+
+ @media (max-width: 768px) {
+.destinyhead {
+    font-size: 1.5rem;
+  }
+
+  .destinycard {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .destinycard img {
+    height: 160px;
+  }
+ }
+ @media (min-width: 769px) and (max-width: 1024px) {
+.destinyhead {
+    font-size: 1.7rem;
+  }
+
+  .destinycard {
+    width: 240px;
+    padding: 20px;
+  }
+
+  .destinycard img {
+    height: 180px;
+  }
+}
+@media (min-width: 1025px) {
+.destinyhead {
+  font-size: 2rem;}
+}
